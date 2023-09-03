@@ -9,7 +9,7 @@ export default function Home() {
   const [show, setshow] = useState(false)
   const HomePage = async () => {
     try {
-      const res = await fetch('http://localhost:5000/getdata', {
+      const res = await fetch('https://swiftnote.onrender.com/getdata', {
         method: "GET",
         headers: {
           Accept: 'application/json',
