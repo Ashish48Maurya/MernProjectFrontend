@@ -1,0 +1,26 @@
+.svg{
+    width: 550px;
+    margin-top: 50px;
+}
+
+.err a{
+    width: 200px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 635px) {
+    .svg{
+        width: 350px;
+        margin-top: 40px;
+    }
+    .err a{
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .err a{
+        width: 80vw;
+    }
+}

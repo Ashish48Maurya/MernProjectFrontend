@@ -1,0 +1,58 @@
+.btnn button {
+    width: 30%;
+    font-weight: bold;
+    background-color: black;
+}
+
+.container input {
+    border: 2px solid black;
+    font-weight: 500;
+}
+
+.container {
+    margin-top: 1rem;
+}
+
+a .active {
+    color: red;
+}
+
+.container Label {
+    font-weight: bolder;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .btnn {
+        text-align: center;
+    }
+
+    .btnn button {
+        width: 100%;
+        margin: auto;
+    }
+
+    .container .HomeImg {
+        margin-bottom: 3rem;
+        min-width: 300px;
+    }
+
+    .container .HomeTxt .btnn {
+        margin-top: 3rem;
+    }
+
+    .container .HomeTxt button {
+        margin-bottom: 1rem;
+    }
+
+    li {
+        text-align: center;
+    }
+
+    ul {
+        padding-top: 1rem;
+    }
+}

@@ -1,0 +1,29 @@
+.left img{
+    width: 400px;
+}
+
+.right{
+    width: 400px;
+}
+
+@media screen and (max-width: 768px) {
+    .left img{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .left img{
+    margin-top: 25px;
+}
+}
+
+@media screen and (max-width: 415px) {
+   .right{
+    width: 300px;
+   }
+}
