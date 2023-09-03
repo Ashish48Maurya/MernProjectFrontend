@@ -20,7 +20,8 @@ export default function Signup() {
   const PostData = async (e) => {
     e.preventDefault();
     const { username, email, password, cpassword } = user;
-    const res = await fetch('https://swiftnote.onrender.com/signup', {
+    // const res = await fetch('http://localhost:5000/signup', {   //for localMachine
+    const res = await fetch('https://swiftnote.onrender.com/signup', {   //for production
       method: "POST",
       headers: {
         "Content-Type": "application/json"
